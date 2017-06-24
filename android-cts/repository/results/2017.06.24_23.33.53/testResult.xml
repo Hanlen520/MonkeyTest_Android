@@ -1,0 +1,247 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no' ?><?xml-stylesheet type="text/xsl"  href="result.xsl"?>
+<TestResult testPlan="Monkey" starttime="2017-06-24 23:33:53" endtime="2017-06-24 23:34:27" log="device_logcat_813514518487938871.txt" version="1.14" suite="CTS">
+  <DeviceInfo>
+    <Screen resolution="1440x2560" screen_density="3.5" screen_density_bucket="560" screen_size="normal" statusbar_height="84.0" />
+    <PhoneSubInfo subscriberId="15555215554" />
+    <BuildInfo build_manufacturer="Genymotion" build_board="unknown" keypad="qwerty" buildID="MRA58K" build_fingerprint="Android/vbox86p/vbox86p:6.0/MRA58K/genymotion08241314:userdebug/test-keys" imsi="310260000000000" Ydpi="560.0" network="Android" build_device="vbox86p" navigation="drap" build_abi="x86" graphicsRenderer="Android Emulator OpenGL ES Translator (Intel(R) HD Graphics 6000)" build_abi2="armeabi-v7a" openGlEsVersion="2.0" build_type="userdebug" androidPlatformVersion="23" partitions="Filesystem               Size     Used     Free   Blksize;/dev                     1.5G    48.0K     1.5G   4096;/sys/fs/cgroup           1.5G    12.0K     1.5G   4096;/mnt                     1.5G     0.0K     1.5G   4096;/system                  1.9G   696.2M     1.3G   4096;/cache                 248.0M   152.0K   247.8M   4096;/data                   12.5G   494.9M    12.0G   4096;/storage                 1.5G     0.0K     1.5G   4096;/storage/emulated       12.5G   494.9M    12.0G   4096;/storage/self            1.5G     0.0K     1.5G   4096;" buildName="vbox86p" buildVersion="6.0" build_brand="Android" touch="finger" Xdpi="560.0" graphicsVendor="Google (Intel Inc.)" deviceID="unknown" multi_user="4 users supported" storage_devices="1 emulated" locales="en_US;ca;da;fa;ja;nb;de;af;bg;th;fi;hi;vi;sk;uk;el;nl;pl;sl;fil;am;in;ko;ro;ar;fr;hr;sr;tr;cs;es;it;lt;pt;hu;ru;zu;lv;sv;iw;sw;en-CA;fr-CA;lo-LA;uk-UA;en-XA;en-GB;ar-XB;bn-BD;in-ID;et-EE;ka-GE;ar-EG;ky-KG;en-SG;km-KH;th-TH;fi-FI;sl-SI;zh-HK;si-LK;mk-MK;ur-PK;sk-SK;sq-AL;hy-AM;my-MM;zh-CN;pa-IN;ta-IN;te-IN;hi-IN;ml-IN;en-IN;kn-IN;mr-IN;gu-IN;mn-MN;vi-VN;ro-RO;ne-NP;pt-BR;hr-HR;gl-ES;eu-ES;is-IS;sr-RS;en-US;es-US;lt-LT;pt-PT;en-AU;hu-HU;lv-LV;zh-TW;ms-MY;az-AZ;kk-KZ;en-NZ;uz-UZ;af-ZA;zu-ZA;nl-BE;fr-BE;de-DE;sv-SE;bg-BG;de-CH;rm-CH;fr-CH;it-CH;fil-PH;de-LI;da-DK;iw-IL;nl-NL;pl-PL;nb-NO;ja-JP;fr-FR;el-GR;fa-IR;ko-KR;tr-TR;ca-ES;es-ES;de-AT;am-ET;it-IT;ru-RU;cs-CZ;sw-TZ;en;rm;" build_model="Google Nexus 6 - 6.0.0 - API 23 - 1440x2560" imei="000000000000000" />
+    <FeatureInfo>
+      <Feature name="android.software.app_widgets" type="sdk" available="true" />
+      <Feature name="android.hardware.audio.low_latency" type="sdk" available="false" />
+      <Feature name="android.hardware.audio.output" type="sdk" available="true" />
+      <Feature name="android.hardware.audio.pro" type="sdk" available="false" />
+      <Feature name="android.hardware.type.automotive" type="sdk" available="false" />
+      <Feature name="android.software.backup" type="sdk" available="true" />
+      <Feature name="android.hardware.bluetooth" type="sdk" available="false" />
+      <Feature name="android.hardware.bluetooth_le" type="sdk" available="false" />
+      <Feature name="android.hardware.camera" type="sdk" available="true" />
+      <Feature name="android.hardware.camera.any" type="sdk" available="true" />
+      <Feature name="android.hardware.camera.autofocus" type="sdk" available="false" />
+      <Feature name="android.hardware.camera.capability.manual_post_processing" type="sdk" available="false" />
+      <Feature name="android.hardware.camera.capability.manual_sensor" type="sdk" available="false" />
+      <Feature name="android.hardware.camera.capability.raw" type="sdk" available="false" />
+      <Feature name="android.hardware.camera.external" type="sdk" available="false" />
+      <Feature name="android.hardware.camera.flash" type="sdk" available="false" />
+      <Feature name="android.hardware.camera.front" type="sdk" available="true" />
+      <Feature name="android.hardware.camera.level.full" type="sdk" available="false" />
+      <Feature name="android.software.connectionservice" type="sdk" available="true" />
+      <Feature name="android.hardware.consumerir" type="sdk" available="false" />
+      <Feature name="android.software.device_admin" type="sdk" available="true" />
+      <Feature name="android.hardware.ethernet" type="sdk" available="false" />
+      <Feature name="android.hardware.faketouch" type="sdk" available="true" />
+      <Feature name="android.hardware.faketouch.multitouch.distinct" type="sdk" available="false" />
+      <Feature name="android.hardware.faketouch.multitouch.jazzhand" type="sdk" available="false" />
+      <Feature name="android.hardware.fingerprint" type="sdk" available="false" />
+      <Feature name="android.hardware.gamepad" type="sdk" available="false" />
+      <Feature name="android.hardware.hdmi.cec" type="sdk" available="false" />
+      <Feature name="android.hardware.sensor.hifi_sensors" type="sdk" available="false" />
+      <Feature name="android.software.home_screen" type="sdk" available="true" />
+      <Feature name="android.software.input_methods" type="sdk" available="true" />
+      <Feature name="android.software.leanback" type="sdk" available="false" />
+      <Feature name="android.software.leanback_only" type="sdk" available="false" />
+      <Feature name="android.software.live_tv" type="sdk" available="false" />
+      <Feature name="android.software.live_wallpaper" type="sdk" available="true" />
+      <Feature name="android.hardware.location" type="sdk" available="true" />
+      <Feature name="android.hardware.location.gps" type="sdk" available="true" />
+      <Feature name="android.hardware.location.network" type="sdk" available="true" />
+      <Feature name="android.software.managed_users" type="sdk" available="true" />
+      <Feature name="android.software.managed_users" type="sdk" available="true" />
+      <Feature name="android.hardware.microphone" type="sdk" available="true" />
+      <Feature name="android.software.midi" type="sdk" available="false" />
+      <Feature name="android.hardware.nfc" type="sdk" available="false" />
+      <Feature name="android.hardware.nfc.hce" type="sdk" available="false" />
+      <Feature name="android.hardware.nfc.hce" type="sdk" available="false" />
+      <Feature name="android.hardware.opengles.aep" type="sdk" available="false" />
+      <Feature name="android.software.print" type="sdk" available="true" />
+      <Feature name="android.hardware.screen.landscape" type="sdk" available="true" />
+      <Feature name="android.hardware.screen.portrait" type="sdk" available="true" />
+      <Feature name="android.software.securely_removes_users" type="sdk" available="false" />
+      <Feature name="android.hardware.sensor.accelerometer" type="sdk" available="true" />
+      <Feature name="android.hardware.sensor.ambient_temperature" type="sdk" available="false" />
+      <Feature name="android.hardware.sensor.barometer" type="sdk" available="false" />
+      <Feature name="android.hardware.sensor.compass" type="sdk" available="false" />
+      <Feature name="android.hardware.sensor.gyroscope" type="sdk" available="false" />
+      <Feature name="android.hardware.sensor.heartrate" type="sdk" available="false" />
+      <Feature name="android.hardware.sensor.heartrate.ecg" type="sdk" available="false" />
+      <Feature name="android.hardware.sensor.light" type="sdk" available="false" />
+      <Feature name="android.hardware.sensor.proximity" type="sdk" available="false" />
+      <Feature name="android.hardware.sensor.relative_humidity" type="sdk" available="false" />
+      <Feature name="android.hardware.sensor.stepcounter" type="sdk" available="false" />
+      <Feature name="android.hardware.sensor.stepdetector" type="sdk" available="false" />
+      <Feature name="android.software.sip" type="sdk" available="true" />
+      <Feature name="android.software.sip.voip" type="sdk" available="true" />
+      <Feature name="android.hardware.telephony" type="sdk" available="true" />
+      <Feature name="android.hardware.telephony.cdma" type="sdk" available="false" />
+      <Feature name="android.hardware.telephony.gsm" type="sdk" available="true" />
+      <Feature name="android.hardware.type.television" type="sdk" available="false" />
+      <Feature name="android.hardware.touchscreen" type="sdk" available="true" />
+      <Feature name="android.hardware.touchscreen.multitouch" type="sdk" available="true" />
+      <Feature name="android.hardware.touchscreen.multitouch.distinct" type="sdk" available="true" />
+      <Feature name="android.hardware.touchscreen.multitouch.jazzhand" type="sdk" available="true" />
+      <Feature name="android.hardware.usb.accessory" type="sdk" available="true" />
+      <Feature name="android.hardware.usb.host" type="sdk" available="true" />
+      <Feature name="android.software.verified_boot" type="sdk" available="false" />
+      <Feature name="android.software.voice_recognizers" type="sdk" available="true" />
+      <Feature name="android.hardware.type.watch" type="sdk" available="false" />
+      <Feature name="android.software.webview" type="sdk" available="true" />
+      <Feature name="android.hardware.wifi" type="sdk" available="true" />
+      <Feature name="android.hardware.wifi.direct" type="sdk" available="false" />
+    </FeatureInfo>
+    <ProcessInfo>
+      <Process name="genyd" uid="0" />
+      <Process name="gatekeeperd" uid="0" />
+      <Process name="perfprofd" uid="0" />
+      <Process name="adbd" uid="0" />
+      <Process name="healthd" uid="0" />
+      <Process name="lmkd" uid="0" />
+      <Process name="vinput" uid="0" />
+      <Process name="vinput_seamless" uid="0" />
+      <Process name="local_opengl" uid="0" />
+      <Process name="local_gps" uid="0" />
+      <Process name="local_camera" uid="0" />
+      <Process name="local_camera" uid="0" />
+      <Process name="main" uid="0" />
+      <Process name="sh" uid="0" />
+      <Process name="logcat" uid="0" />
+      <Process name="main" uid="0" />
+    </ProcessInfo>
+    <SystemLibrariesInfo>
+      <Library name="com.android.location.provider" />
+      <Library name="com.android.future.usb.accessory" />
+      <Library name="javax.obex" />
+      <Library name="android.test.runner" />
+      <Library name="org.apache.http.legacy" />
+      <Library name="com.android.media.remotedisplay" />
+      <Library name="com.android.mediadrm.signer" />
+    </SystemLibrariesInfo>
+    <OpenGLCompressedTextureFormatsInfo>
+      <TextureFormat name="GL_OES_compressed_paletted_texture" />
+      <TextureFormat name="GL_OES_compressed_ETC1_RGB8_texture" />
+    </OpenGLCompressedTextureFormatsInfo>
+  </DeviceInfo>
+  <HostInfo name="mijiaweideair">
+    <Os name="Mac OS X" version="10.12.5" arch="x86_64" />
+    <Java name="Oracle Corporation" version="1.8.0_91" />
+    <Cts version="4.4_r0">
+      <IntValue name="testStatusTimeoutMs" value="600000" />
+    </Cts>
+  </HostInfo>
+  <Summary crash="NA" path="crash.txt" duration="34s" result="0 Crash." />
+  <MonkeyTest application="com.quanleimu.activity" count="50" result="NA" final="final-2017-06-24_23-34-27_7663850572980072828.png" log="monkey_3969224373330984353.txt">
+    <Event index="49" type="key" value="KEYCODE_BACK" time="2017-06-24 23:34:23" image="ss" log="NA" pos="0" />
+    <Event index="48" type="key" value="KEYCODE_BACK" time="2017-06-24 23:34:23" image="ss" log="NA" pos="1" />
+    <Event index="47" type="tap" x="900.0" y="1784.0" time="2017-06-24 23:34:23" image="ss" log="NA" pos="2" />
+    <Event index="46" type="key" value="KEYCODE_BACK" time="2017-06-24 23:34:22" image="ss" log="NA" pos="3" />
+    <Event index="45" type="key" value="KEYCODE_BACK" time="2017-06-24 23:34:22" image="ss" log="NA" pos="4" />
+    <Event index="44" type="key" value="KEYCODE_BACK" time="2017-06-24 23:34:22" image="ss" log="NA" pos="5" />
+    <Event index="43" type="tap" x="345.0" y="1309.0" time="2017-06-24 23:34:22" image="ss" log="NA" pos="6" />
+    <Event index="42" type="tap" x="604.0" y="1084.0" time="2017-06-24 23:34:22" image="ss" log="NA" pos="7" />
+    <Event index="41" type="key" value="KEYCODE_BACK" time="2017-06-24 23:34:21" image="ss" log="NA" pos="8" />
+    <Event index="40" type="key" value="KEYCODE_BACK" time="2017-06-24 23:34:21" image="ss" log="NA" pos="9" />
+    <Event index="39" type="drag" image="ss" log="NA" pos="10">
+      <Touch direction="down" x="107" y="1977" />
+      <Touch direction="move" x="139" y="1945" />
+      <Touch direction="move" x="160" y="1900" />
+      <Touch direction="up" x="160" y="1900" />
+    </Event>
+    <Event index="38" type="key" value="KEYCODE_BACK" time="2017-06-24 23:34:20" image="ss" log="NA" pos="11" />
+    <Event index="37" type="tap" x="1090.0" y="1987.0" time="2017-06-24 23:34:20" image="ss" log="NA" pos="12" />
+    <Event index="36" type="tap" x="303.0" y="2137.0" time="2017-06-24 23:34:20" image="ss" log="NA" pos="13" />
+    <Event index="35" type="tap" x="1011.0" y="1200.0" time="2017-06-24 23:34:20" image="ss" log="NA" pos="14" />
+    <Event index="34" type="drag" image="ss" log="NA" pos="15">
+      <Touch direction="down" x="560" y="929" />
+      <Touch direction="move" x="527" y="913" />
+      <Touch direction="move" x="518" y="869" />
+      <Touch direction="move" x="500" y="795" />
+      <Touch direction="up" x="500" y="795" />
+    </Event>
+    <Event index="33" type="drag" image="ss" log="NA" pos="16">
+      <Touch direction="down" x="534" y="55" />
+      <Touch direction="move" x="573" y="65" />
+      <Touch direction="move" x="598" y="75" />
+      <Touch direction="move" x="608" y="86" />
+      <Touch direction="up" x="608" y="86" />
+    </Event>
+    <Event index="32" type="drag" image="ss" log="NA" pos="17">
+      <Touch direction="down" x="591" y="2088" />
+      <Touch direction="move" x="558" y="2092" />
+      <Touch direction="move" x="557" y="2103" />
+      <Touch direction="up" x="557" y="2103" />
+    </Event>
+    <Event index="31" type="key" value="KEYCODE_BACK" time="2017-06-24 23:34:16" image="ss" log="NA" pos="18" />
+    <Event index="30" type="tap" x="813.0" y="242.0" time="2017-06-24 23:34:16" image="ss" log="NA" pos="19" />
+    <Event index="29" type="drag" image="ss" log="NA" pos="20">
+      <Touch direction="down" x="198" y="1076" />
+      <Touch direction="move" x="85" y="1170" />
+      <Touch direction="up" x="85" y="1170" />
+    </Event>
+    <Event index="28" type="tap" x="889.0" y="229.0" time="2017-06-24 23:34:15" image="ss" log="NA" pos="21" />
+    <Event index="27" type="key" value="KEYCODE_BACK" time="2017-06-24 23:34:15" image="ss" log="NA" pos="22" />
+    <Event index="26" type="tap" x="770.0" y="2033.0" time="2017-06-24 23:34:15" image="ss" log="NA" pos="23" />
+    <Event index="25" type="key" value="KEYCODE_BACK" time="2017-06-24 23:34:14" image="ss" log="NA" pos="24" />
+    <Event index="24" type="tap" x="683.0" y="2060.0" time="2017-06-24 23:34:14" image="ss" log="NA" pos="25" />
+    <Event index="23" type="drag" image="ss" log="NA" pos="26">
+      <Touch direction="down" x="431" y="1965" />
+      <Touch direction="move" x="379" y="1957" />
+      <Touch direction="move" x="372" y="1949" />
+      <Touch direction="up" x="372" y="1949" />
+    </Event>
+    <Event index="22" type="key" value="KEYCODE_BACK" time="2017-06-24 23:34:13" image="ss" log="NA" pos="27" />
+    <Event index="21" type="tap" x="736.0" y="1581.0" time="2017-06-24 23:34:13" image="ss" log="NA" pos="28" />
+    <Event index="20" type="drag" image="ss" log="NA" pos="29">
+      <Touch direction="down" x="302" y="1171" />
+      <Touch direction="move" x="247" y="1091" />
+      <Touch direction="move" x="170" y="1086" />
+      <Touch direction="move" x="151" y="1069" />
+      <Touch direction="up" x="151" y="1069" />
+    </Event>
+    <Event index="19" type="tap" x="817.0" y="799.0" time="2017-06-24 23:34:12" image="ss" log="NA" pos="30" />
+    <Event index="18" type="tap" x="275.0" y="1250.0" time="2017-06-24 23:34:12" image="ss" log="NA" pos="31" />
+    <Event index="17" type="tap" x="966.0" y="641.0" time="2017-06-24 23:34:12" image="ss" log="NA" pos="32" />
+    <Event index="16" type="tap" x="795.0" y="818.0" time="2017-06-24 23:34:11" image="ss" log="NA" pos="33" />
+    <Event index="15" type="tap" x="1333.0" y="1492.0" time="2017-06-24 23:34:11" image="ss" log="NA" pos="34" />
+    <Event index="14" type="drag" image="ss" log="NA" pos="35">
+      <Touch direction="down" x="1375" y="1381" />
+      <Touch direction="move" x="1440" y="1429" />
+      <Touch direction="up" x="1440" y="1429" />
+    </Event>
+    <Event index="13" type="drag" image="ss" log="NA" pos="36">
+      <Touch direction="down" x="611" y="418" />
+      <Touch direction="move" x="522" y="445" />
+      <Touch direction="move" x="450" y="509" />
+      <Touch direction="up" x="450" y="509" />
+    </Event>
+    <Event index="12" type="tap" x="344.0" y="1501.0" time="2017-06-24 23:34:09" image="ss" log="NA" pos="37" />
+    <Event index="11" type="drag" image="ss" log="NA" pos="38">
+      <Touch direction="down" x="1004" y="1220" />
+      <Touch direction="move" x="998" y="1250" />
+      <Touch direction="move" x="993" y="1306" />
+      <Touch direction="move" x="991" y="1363" />
+      <Touch direction="up" x="991" y="1363" />
+    </Event>
+    <Event index="10" type="drag" image="ss" log="NA" pos="39">
+      <Touch direction="down" x="1410" y="471" />
+      <Touch direction="move" x="1440" y="430" />
+      <Touch direction="move" x="1440" y="405" />
+      <Touch direction="up" x="1440" y="405" />
+    </Event>
+    <Event index="9" type="key" value="KEYCODE_BACK" time="2017-06-24 23:34:06" image="ss" log="NA" pos="40" />
+    <Event index="8" type="tap" x="432.0" y="742.0" time="2017-06-24 23:34:06" image="ss" log="NA" pos="41" />
+    <Event index="7" type="tap" x="667.0" y="1375.0" time="2017-06-24 23:34:06" image="ss" log="NA" pos="42" />
+    <Event index="6" type="key" value="KEYCODE_BACK" time="2017-06-24 23:34:06" image="ss" log="NA" pos="43" />
+    <Event index="5" type="tap" x="997.0" y="429.0" time="2017-06-24 23:34:05" image="ss" log="NA" pos="44" />
+    <Event index="4" type="tap" x="1196.0" y="164.0" time="2017-06-24 23:34:05" image="ss" log="NA" pos="45" />
+    <Event index="3" type="key" value="KEYCODE_BACK" time="2017-06-24 23:34:05" image="ss" log="NA" pos="46" />
+    <Event index="2" type="drag" image="ss" log="NA" pos="47">
+      <Touch direction="down" x="1423" y="2267" />
+      <Touch direction="move" x="1359" y="2229" />
+      <Touch direction="move" x="1339" y="2190" />
+      <Touch direction="up" x="1339" y="2190" />
+    </Event>
+    <Event index="1" type="key" value="KEYCODE_BACK" time="2017-06-24 23:34:04" image="ss" log="NA" pos="48" />
+    <Event index="0" type="drag" image="ss" log="NA" pos="49">
+      <Touch direction="down" x="898" y="1096" />
+      <Touch direction="move" x="948" y="1111" />
+      <Touch direction="up" x="948" y="1111" />
+    </Event>
+  </MonkeyTest>
+</TestResult>
